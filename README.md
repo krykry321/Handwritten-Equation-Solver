@@ -9,10 +9,15 @@
 
 ## Requiments
 PyQT5
+
 torch
+
 torchvision
+
 PIL
+
 opencv
+
 tqdm(Used in train.py, disable it in program if not using tqdm.)
 
 ## Overview Process
