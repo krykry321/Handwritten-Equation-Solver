@@ -25,7 +25,8 @@ tqdm(Used in train.py, disable it in program if not intending to show progress b
 
 ### Input HandWritten Equations
 Write it in canvas and click "Exit" button, then "save test.jpg" will be saved in your current directory. 
-![image](https://user-images.githubusercontent.com/61113791/161966141-3461b580-1ab5-4b63-a115-52fd971e5131.png)
+![image](https://user-images.githubusercontent.com/61113791/161974971-60ba2433-9758-4e40-9ebe-0719eacb32fa.png)
+
 
 
 
