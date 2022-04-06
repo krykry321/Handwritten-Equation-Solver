@@ -1,7 +1,7 @@
 # Handwritten-Equation-Solver
 ①PyQt for canvas and handwritten equation input, 
 
-②crop digits and symbols from input, 
+②crop digits and operators from input, 
 
 ③MobileNet for recognition,
 
@@ -18,7 +18,7 @@ PIL
 
 opencv
 
-tqdm(Used in train.py, disable it in program if not using tqdm.)
+tqdm(Used in train.py, disable it in program if not intending to show progress bar.)
 
 ## Overview Process
 ![image](https://user-images.githubusercontent.com/61113791/161964590-79f4380b-b241-441f-9ff7-1df7e5acf03e.png)
@@ -29,10 +29,10 @@ Write it in canvas and click "Exit" button, then "save test.jpg" will be saved i
 
 
 
-### Crop digits and symbols
-Then it will be processed by get_num.py to crop the digits and symbols, and packed in a batch of tensors.
+### Crop digits and operators
+Then it will be processed by get_num.py to crop the digits and operators, and packed in a batch of tensors.
 
-Crop based on the black pixels, but it is not a ingenious method, which requires digits and symbols not overlapped and written wholely.
+Crop based on the black pixels, but it is not a ingenious method, which requires digits and operators not overlapped and written wholely.
 
 You can change the method using CV2.FindContours functions, following methods in Links for more.
 ![image](https://user-images.githubusercontent.com/61113791/161967125-d8a581e4-6cc1-4847-b781-a405fc828bd2.png)
@@ -77,7 +77,7 @@ Check try04.py for detailed code.
 
 ## Dataset
 https://www.kaggle.com/xainano/handwrittenmathsymbols
-We utilize the digits 0~9 and symbols +-×÷ of it.
+We utilize the digits 0~9 and operators +-×÷ of it.
 
 ## Links
 https://www.geeksforgeeks.org/handwritten-equation-solver-in-python/
