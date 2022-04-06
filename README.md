@@ -57,7 +57,7 @@ We train MobileNetV2 to perofrom the Handwritten Equation Solver on mobile platf
 
 ***It should be noted that our model unfortunately does not perform well on recognizing the digits and operators, don't be suprised if it fails you :-)***
 
-### Index to String to Float Results
+### Prediction Index --> String --> Results
 The model outputs its recognition of input characters in torch.tensor
 
 We transform the prediction from a batch of tensors to string.
