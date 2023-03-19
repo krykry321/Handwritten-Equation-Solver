@@ -87,3 +87,6 @@ https://github.com/sabari205/Equation-Solver
 
 https://github.com/matheuscr30/Handwritten-Equation-Recognition---CNN
 
+## We implement it on Nvidia Jetson AGX Xavier
+![演示马赛克](https://user-images.githubusercontent.com/61113791/226182302-cc0b4ddf-e233-444c-b73b-6b9467b5afcb.jpg)
+
