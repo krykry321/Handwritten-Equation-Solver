@@ -20,6 +20,11 @@ opencv
 
 tqdm(Used in train.py, disable it in program if not intending to show progress bar.)
 
+## Demo Example
+![output-onlinegiftools](https://github.com/krykry321/Handwritten-Equation-Solver/assets/61113791/28830c91-52ea-433c-ae64-fbd11f7f0eec)
+
+
+
 ## Overview Process
 ![image](https://user-images.githubusercontent.com/61113791/161964590-79f4380b-b241-441f-9ff7-1df7e5acf03e.png)
 
